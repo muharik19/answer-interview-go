@@ -17,7 +17,7 @@ func fb(n int) int {
 
 func main() {
 	var input int
-	fmt.Print("Type some palindrome: ")
+	fmt.Print("Type some fibonacci: ")
 	fmt.Scanln(&input)
 
 	for n := 0; n < input; n++ {
